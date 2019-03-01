@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:id="@+id/layoutCaidatTop"
+        style="@style/WhiteBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spCaidatPhannhom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvCaidat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutCaidatBottom"
+        android:layout_below="@+id/layoutCaidatTop"
+        android:layout_marginTop="8dp"
+        android:divider="@null"
+        android:dividerHeight="5dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/layoutCaidatBottom"
+        style="@style/WhiteBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/txtCaidatTennhom"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_toLeftOf="@+id/spCaidatThuchi"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true" />
+
+        <Spinner
+            android:id="@+id/spCaidatThuchi"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_toLeftOf="@+id/btnCaidatThem" />
+
+        <ImageButton
+            android:id="@+id/btnCaidatThem"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/add_icon_red" />
+    </RelativeLayout>
+</RelativeLayout>

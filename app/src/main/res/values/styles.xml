@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#E62117</item>
+        <item name="colorPrimaryDark">#E8372E</item>
+        <item name="colorAccent">#FFFF</item>
+    </style>
+
+    <style name="WhiteText">
+        <item name="android:textColor">#FFFF</item>
+    </style>
+
+    <style name="TextThongtin">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="ViewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="TabStrip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="ButtonThongKe">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawableRight">@mipmap/down_icon</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="ListviewThongKe">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="WhiteBackground">
+        <item name="android:background">#FFFF</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="TextViewGiaodich">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="SpinnerGiaodich">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="EditTextGiaodich">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="colorControlNormal">#CCCC</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ButtonGiaodich">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFF</item>
+    </style>
+</resources>

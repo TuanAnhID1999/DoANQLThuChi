@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_listview_item">
+
+    <TextView
+        android:id="@+id/txtThongtinDate"
+        android:layout_width="wrap_content"
+        android:layout_toLeftOf="@+id/txtThongtinMoney"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtThongtinMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtThongtinNhom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtThongtinDate"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/txtThongtinTaikhoan"
+        android:layout_alignParentLeft="true"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtThongtinTaikhoan"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtThongtinDate"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtThongtinNhom"
+        android:layout_alignParentRight="true"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</RelativeLayout>

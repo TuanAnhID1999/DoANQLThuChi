@@ -1,0 +1,96 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Quản lý chi tiêu</string>
+    <string name="hello_world" tools:ignore="ExtraTranslation">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="red">#FF0000</color>
+
+    <!--Đăng nhập-->
+    <string name="tendangnhap">Tên đăng nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="dangky">Đăng ký</string>
+    <string name="quenmatkhau">Quên mật khẩu</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="mabimat">Mã số bí mật</string>
+
+    <!--Quên mật khẩu-->
+    <string name="matkhaumoi">Mật khẩu mới</string>
+    <string name="nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="taomatkhau">Tạo mật khẩu</string>
+
+    <!--Đăng ký-->
+    <string name="xoatrang">Xóa trắng</string>
+    <string name="luuy">Lưu ý: Mã số này được dùng để khôi phục mật khẩu!</string>
+
+    <!--Giới thiệu-->
+    <string name="tenungdung">Tên ứng dụng:</string>
+    <string name="phienban">Phiên bản:</string>
+    <string name="version">Version 2015</string>
+    <string name="thietkeboi">Thiết kế bởi:</string>
+    <string name="designer">Do Gia Long</string>
+    <string name="masinhvien">Mã sinh viên:</string>
+    <string name="mssv">PH03779</string>
+    <string name="lop">Lớp:</string>
+    <string name="tenlop">PT10352</string>
+
+    <!--Giao dịch-->
+    <string name="taikhoan">Tài khoản</string>
+    <string name="loaigiaodich">Loại giao dịch</string>
+    <string name="sotien">Số tiền</string>
+    <string name="nhapsotien">Nhập số tiền</string>
+    <string name="lydo">Lý do</string>
+    <string name="nhaplydo">Nhập lý do</string>
+    <string name="phannhom">Phân nhóm</string>
+    <string name="trangthai">Trạng thái giao dịch</string>
+    <string name="ngaygiaodich">Ngày giao dịch</string>
+    <string name="hientai">Hiện tại</string>
+    <string name="luu">Lưu</string>
+    <string name="luuvadong">Lưu &amp; Đóng</string>
+
+    <!--Chọn ngày giao dịch-->
+    <string name="xong">Xong</string>
+    <string name="chonngay">Chọn ngày giao dịch</string>
+
+    <string-array name="navigation">
+        <item>Thêm giao dịch</item>
+        <item>Xem giao dịch</item>
+        <item>Thu chi</item>
+        <item>Thống kê</item>
+        <item>Cài đặt</item>
+        <item>Đăng xuất</item>
+        <item>Thoát</item>
+    </string-array>
+
+    <string-array name="chonngay">
+        <item>HÔM NAY</item>
+        <item>TUẦN NÀY</item>
+        <item>THÁNG NÀY</item>
+        <item>NĂM NAY</item>
+    </string-array>
+
+    <string-array name="phannhom">
+        <item>Phân nhóm</item>
+        <item>Khoản thu</item>
+        <item>Khoản chi</item>
+    </string-array>
+
+    <string-array name="taikhoan">
+        <item>Tiền mặt</item>
+        <item>Tiết kiệm</item>
+        <item>Thẻ tín dụng</item>
+    </string-array>
+
+    <string-array name="giaodich">
+        <item>Khoản thu</item>
+        <item>Khoản chi</item>
+    </string-array>
+
+    <string-array name="trangthai">
+        <item>Đã trả</item>
+        <item>Còn nợ</item>
+    </string-array>
+
+    <string-array name="thongkegruop">
+        <item>Tổng thu</item>
+        <item>Tổng chi</item>
+    </string-array>
+</resources>

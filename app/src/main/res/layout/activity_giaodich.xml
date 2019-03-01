@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarGiaodich"
+        style="@style/Toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewGiaodich"
+                    android:text="@string/taikhoan" />
+
+                <Spinner
+                    android:id="@+id/spGiaodichTaikhoan"
+                    style="@style/SpinnerGiaodich" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewGiaodich"
+                    android:text="@string/loaigiaodich" />
+
+                <Spinner
+                    android:id="@+id/spGiaodichGiaodich"
+                    style="@style/SpinnerGiaodich" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewGiaodich"
+                    android:text="@string/sotien" />
+
+                <EditText
+                    android:id="@+id/txtGiaodichSotien"
+                    style="@style/EditTextGiaodich"
+                    android:hint="@string/nhapsotien"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewGiaodich"
+                    android:text="@string/lydo" />
+
+                <EditText
+                    android:id="@+id/txtGiaodichLydo"
+                    style="@style/EditTextGiaodich"
+                    android:hint="@string/nhaplydo" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewGiaodich"
+                    android:text="@string/phannhom" />
+
+                <Spinner
+                    android:id="@+id/spGiaodichPhannhom"
+                    style="@style/SpinnerGiaodich" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewGiaodich"
+                    android:text="@string/trangthai" />
+
+                <Spinner
+                    android:id="@+id/spGiaodichTrangthai"
+                    style="@style/SpinnerGiaodich" />
+            </LinearLayout>
+
+            <TableLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/TextViewGiaodich"
+                        android:layout_span="3"
+                        android:text="@string/ngaygiaodich" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnGiaodichNgay"
+                        style="@style/ButtonGiaodich"
+                        android:background="@drawable/giaodich_button"
+                        android:onClick="chonngay" />
+
+                    <Button
+                        android:id="@+id/btnGiaodichGio"
+                        style="@style/ButtonGiaodich"
+                        android:background="@drawable/giaodich_button" />
+
+                    <Button
+                        android:id="@+id/btnGiaodichHientai"
+                        style="@style/ButtonGiaodich"
+                        android:background="@drawable/giaodich_button"
+                        android:onClick="hientai"
+                        android:text="@string/hientai" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                style="@style/WhiteBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnGiaodichLuu"
+                    style="@style/ButtonGiaodich"
+                    android:layout_weight="1"
+                    android:background="@drawable/giaodich_button"
+                    android:onClick="luu"
+                    android:text="@string/luu" />
+
+                <Button
+                    android:id="@+id/btnGiaodichDong"
+                    style="@style/ButtonGiaodich"
+                    android:layout_weight="1"
+                    android:background="@drawable/giaodich_button"
+                    android:onClick="luuvathoat"
+                    android:text="@string/luuvadong" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

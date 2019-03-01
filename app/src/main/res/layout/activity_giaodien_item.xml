@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/imgGiaodienImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/gift_box_icon" />
+
+    <TextView
+        android:id="@+id/txtGiaodienName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/txtGiaodienMoney"
+        android:layout_toRightOf="@+id/imgGiaodienImage"
+        android:gravity="center_vertical"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtGiaodienMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:text="@string/hello_world"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+</RelativeLayout>
